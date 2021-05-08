@@ -1,0 +1,12 @@
+# branchName: short
+branchName: '${issue.number}'
+
+branches:
+  - label: enhancement
+    prefix: feature-
+  - label: bug
+    prefix: bug-
+  - label: '*'
+    prefix: issue-
+
+commentMessage: 'Branch ${branchName} created for issue: ${issue.title}'
