@@ -5,7 +5,7 @@ branches:
   - label: enhancement
     prefix: feature-
   - label: bug
-    prefix: bug-
+    prefix: issue-
   - label: '*'
     prefix: issue-
 
