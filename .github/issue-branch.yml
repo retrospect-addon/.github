@@ -4,6 +4,8 @@ branchName: '${issue.number}'
 branches:
   - label: enhancement
     prefix: feature-
+  - label: channel
+    prefix: channel-
   - label: bug
     prefix: bug-
   - label: '*'
