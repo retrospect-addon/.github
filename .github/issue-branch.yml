@@ -9,4 +9,4 @@ branches:
   - label: '*'
     prefix: issue-
 
-commentMessage: 'Branch ${branchName} created for issue: ${issue.title}'
+commentMessage: 'Branch `${branchName}` created for issue: "${issue.title}"'
