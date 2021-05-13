@@ -11,4 +11,4 @@ branches:
   - label: '*'
     prefix: issue-
 
-commentMessage: 'Branch `${branchName}` created for issue: "${issue.title}"'
+commentMessage: 'Branch `${repository.html_url}/tree/${branchName}` created for issue: "${issue.title}"'
