@@ -11,4 +11,8 @@ branches:
   - label: '*'
     prefix: issue-
 
-commentMessage: 'Branch `${branchName}` (${repository.html_url}/tree/${branchName}) was created for issue: "${issue.title}"'
+commentMessage: | 
+  'Branch `${branchName}` was created for issue: "${issue.title}"
+  
+  * Url: ${repository.html_url}/tree/${branchName}
+  * Kodi Zip: ${repository.html_url}/archive/refs/heads/${branchName}.zip'
